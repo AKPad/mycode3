@@ -78,4 +78,10 @@ public class AccountController {
         }
         return "success";
     }
+
+    @RequestMapping("/world")
+    public String world(){
+        System.out.println("world");
+        return "success";
+    }
 }
