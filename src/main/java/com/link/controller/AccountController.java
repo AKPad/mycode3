@@ -85,4 +85,10 @@ public class AccountController {
         System.out.println("hello");
         return "success";
     }
+
+    @RequestMapping("/show")
+    public String show(){
+        System.out.println("show");
+        return "success";
+    }
 }
